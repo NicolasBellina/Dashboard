@@ -84,12 +84,3 @@ Déploiement
 ```bash
 npm run build
 ```
-
-2. Servir le contenu du dossier `dist/` avec votre hébergeur préféré (Netlify, Vercel, GitHub Pages via un adaptateur, ou un simple serveur static).
-
-Conseils de validation et tests
-------------------------------
-- Vérifier les flux : login → dashboard → produits → création/édition/suppression
-- Tester la persistance d'auth (logout/relance du navigateur)
-- Vérifier l'affichage responsive (mobile / tablette / desktop)
-- Consulter la console du navigateur pour détecter les erreurs réseau ou JS
